@@ -1,0 +1,81 @@
+body
+{
+    background: radial-gradient(rgb(199, 209, 255),rgb(29, 26, 117));
+    height: 500em;
+    color: azure;
+    
+}
+
+h1
+{
+    color: #e22626;
+    text-indent: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+    mix-blend-mode: color-dodge;
+    background-blend-mode: hard-light;
+    background-color:  rgb(146, 184, 255);
+    border: 2px solid black;
+    border-top-left-radius: 1em 1em;
+    border-top-right-radius: 1em 1em;
+    border-bottom-left-radius: 1em 1em;
+    border-bottom-right-radius: 1em 1em;
+
+}
+
+h2
+{
+    color: rgb(186, 68, 70);
+    mix-blend-mode: color-dodge;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic, bold;
+    font-size: 50px;
+    text-decoration: underline;
+    text-indent: 5%;
+
+}
+nav
+{
+    padding: 1.25em 10em;
+    text-align: center;
+    font-family: fantasy;
+    font-size: larger;
+    text-decoration: dashed;
+    background-color: rgb(146, 184, 255);
+    color: #ffffff;
+    mix-blend-mode: overlay;
+    border: 2px solid black;
+    border-top-left-radius: 1em 1em;
+    border-top-right-radius: 1em 1em;
+
+}
+footer
+{
+    padding: 1.25em 10em;
+    text-align: center;
+    font-family: fantasy;
+    font-size: larger;
+    text-decoration: dashed;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    mix-blend-mode: overlay;
+    border: 2px solid black;
+    border-bottom-left-radius: 1em 1em;
+    border-bottom-right-radius: 1em 1em;
+    text-decoration: line-through;
+}
+
+img {
+    border-radius: 30%;
+    width: 1000px;
+    height: 1000px;
+  }
+p
+{
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: deepskyblue;
+   mix-blend-mode: color-dodge;
+}
