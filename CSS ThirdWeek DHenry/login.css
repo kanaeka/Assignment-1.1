@@ -1,0 +1,65 @@
+html
+{
+    height: 100%;
+}
+form
+{
+    mix-blend-mode: difference;
+    background-image: linear-gradient(to right, cyan, rgba(255,0,0,0));
+    font-weight: bold;
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+}
+body
+{
+background-blend-mode: color-dodge;
+background-image: linear-gradient(white, rgb(52, 49, 49));
+height: 500em;
+max-height: 100%;
+
+}
+h1
+{
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+    background-image:linear-gradient(to right, cyan, rgba(255,0,0,0));
+    mix-blend-mode: difference;
+    font-size: 70px;
+}
+h2
+{
+    text-shadow: rgb(0, 187, 255) 1px 1px 1px;
+    mix-blend-mode: difference;
+    font-size: 30px;
+    color: #ffffff;
+    text-decoration: overline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h3
+{
+    text-align: left;
+    font-family:monospace;
+    font-size: larger;
+    text-decoration: dashed;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    mix-blend-mode:difference;
+    border: 2px solid black;
+    border-top-left-radius: 1em 1em;
+    border-top-right-radius: 1em 1em;
+    height: 2em;
+}
+
+footer
+{
+    padding: 1.25em 10em;
+    text-align: center;
+    font-family: fantasy;
+    font-size: larger;
+    text-decoration: dashed;
+    background-color: rgb(to right, cyan, rgb(255,0,0,0));
+    color: #ffffff;
+    mix-blend-mode: difference;
+    border: 6px solid black;
+    border-bottom-left-radius: 1em 1em;
+    border-bottom-right-radius: 1em 1em;
+    height: 2em;
+}

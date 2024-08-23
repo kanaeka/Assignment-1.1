@@ -1,0 +1,36 @@
+<!--Daniel Henry, Assignment 3.2: User Input Foundation-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <script src= "login.js"></script>
+    <link href = "login.css" rel = "stylesheet"  type = "text/css"/>
+<!--Headers-->
+</head>
+<body>
+    <h1>  University of Advancing Technology</h1>
+        <h2>Program Objectives Portal</h2>
+        
+    <br>
+<h3>Please insert information below:</h3>
+<!--Form ID info, imperative line under (onsubmit)-->
+    <form id = "loginSubmit" onsubmit="return false">
+        <!--Enters initials, rather than full name. Zip code accepted in third box-->
+        Student First Initial:  <input type = "text" id = "finitial"/>
+        <br>
+        Student Last initial:   <input type = "text" id = "linitial"/>
+        <br>
+        UAT Zip Code: <input type = "number" id = "zipcode"/>
+        <input type = "submit" onclick = "checkCreds();">
+
+        <!--Last text, changes based on user input-->
+        <p id = "loginStatus" >Status of login</p>
+    </form>
+    <!--Empty gradient box-->
+    <footer>
+
+    </footer>
+</body>
+</html>
