@@ -1,0 +1,25 @@
+<!-- Daniel Henry  Assignment 3.1-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src = "strings.js"></script>
+    <link rel = "stylesheet" href="strings.css"
+</head>
+<h1>Palindrome Checker</h1>
+<body>
+
+<!--imperative line below, allows for navigating away from page-->
+    <form onsubmit = "return false">
+
+<!--text string, id is referenced for variable in js-->
+        Enter 2 or more characters: <br>         <input type = "text" id = "firstStr"/>
+
+<!--on submit, runs palinchecker function-->
+        <input type = "submit" onclick =  "palinchecker();"/>
+    </form>
+    <p id = "palin">  Palindrome:</p>
+</body>
+</html>
