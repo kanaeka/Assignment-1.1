@@ -1,0 +1,104 @@
+html
+{
+ max-width: 100%;
+ color: black;
+}
+
+audio
+{
+    transform: rotate(-90deg);
+    position: absolute; left: 600px; top: 290px;
+    display: block;
+    background-color: #d20019;
+    border-radius: 50px;
+    padding: 3em;
+    mix-blend-mode: color-burn;
+    margin: 15% auto;
+}
+body
+{
+    background-color: black;
+    background-repeat:round;
+    color: rgb(3, 3, 3);
+    text-align: center;
+    background-size: 4000px, 1200px;
+    max-width: 100%;
+}
+
+h1
+{
+    position: absolute; left: 300px; top: -1700px;
+}
+
+h2
+{
+    position: absolute; left: 500px; top: 1100px;
+
+}
+
+h3
+{
+    position: absolute; left: 1000px; top: 1100px;
+
+
+}
+
+footer
+{
+    position:absolute; left:2750px; top: 2050px;
+    padding: 1.25em 10em;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    text-decoration:overline;
+    background-color: rgb(223, 0, 0);
+    color: #000000;
+    border: 2px solid rgb(222, 0, 0);
+    border-bottom-left-radius: 1em 1em;
+    border-bottom-right-radius: 1em 1em;
+    mix-blend-mode:color-burn;
+}
+p
+{
+    mix-blend-mode:overlay;
+    
+}
+
+.start
+{
+  background-color: #ff0080;
+  border-radius: 40px;
+  border-style: none;
+  color: #fff;
+  display: inline-block;
+  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  max-width: none;
+  min-height: 5000px;
+  min-width: 500px;
+  outline: none;
+  mix-blend-mode: color-burn;
+}
+
+.stop
+{
+  background-color: #ff0000;
+  border-radius: 40px;
+  border-style: none;
+  color: #fff;
+  display: inline-block;
+  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  max-width: none;
+  min-height: 5000px;
+  min-width: 500px;
+  outline: none;
+  mix-blend-mode: color-burn;
+}
+
