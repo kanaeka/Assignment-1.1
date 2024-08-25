@@ -1,0 +1,90 @@
+html
+{
+ max-width: 100%;
+ color: black;
+}
+
+body
+{
+    background-color: black;
+    background-image: url(city.jpg);
+    background-repeat: no-repeat;
+    color: rgb(3, 3, 3);
+    text-align: center;
+    background-size: 4000px, 1200px;
+    max-width: 100%;
+}
+
+h1
+{
+    position: absolute; left: 1000px; top: 500px;
+}
+
+h2
+{
+    position: absolute; left: 500px; top: 500px;
+
+}
+
+h3
+{
+    position: absolute; left: 1000px; top: 500px;
+
+
+}
+
+footer
+{
+    position:absolute; left:670px; top: 1000px;
+    padding: 1.25em 10em;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    text-decoration: dashed;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    border: 2px solid black;
+    border-bottom-left-radius: 1em 1em;
+    border-bottom-right-radius: 1em 1em;
+}
+p
+{
+    mix-blend-mode:screen;
+}
+
+.start
+{
+  background-color: #48ff00;
+  border-radius: 4px;
+  border-style: none;
+  color: #fff;
+  display: inline-block;
+  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  max-width: none;
+  min-height: 50px;
+  min-width: 500px;
+  outline: none;
+}
+
+.stop
+{
+  background-color: #ff0000;
+  border-radius: 4px;
+  border-style: none;
+  color: #fff;
+  display: inline-block;
+  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  max-width: none;
+  min-height: 50px;
+  min-width: 500px;
+  outline: none;
+}
+
